@@ -1,0 +1,51 @@
+{
+  "name": "r-is-for-react",
+  "version": "0.0.0",
+  "description": "React bindings for s-is-for-store.",
+  "main": "lib/index.js",
+  "author": "Grant Heath",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heathgr/s-is-for-store.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc",
+    "test": "jest"
+  },
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/",
+    "src/"
+  ],
+  "keywords": [
+    "state",
+    "store",
+    "react",
+    "s-is-for-store"
+  ],
+  "devDependencies": {
+    "@types/jest": "^23.3.12",
+    "@types/react": "^16.7.18",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "jest": "^23.6.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-test-renderer": "^16.7.0",
+    "s-is-for-store": "^0.2.1",
+    "ts-jest": "^23.10.5",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  },
+  "peerDependencies": {
+    "react": "^16.7.0",
+    "s-is-for-store": "^0.2.1"
+  },
+  "dependencies": {
+    "@types/enzyme": "^3.1.15",
+    "@types/enzyme-adapter-react-16": "^1.0.3"
+  }
+}
