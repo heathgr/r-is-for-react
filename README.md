@@ -4,11 +4,23 @@ A React connector for [S is for Store](https://github.com/heathgr/s-is-for-store
 
 > Note: This project is still early in development.  It is not recommended for production code.
 
+## Installation
+
+Instal using npm
+```
+npm install r-is-for-react --save
+```
+
+Or with yarn
+```
+yarn add s-is-for-store
+```
+
 ## Usage Example
 
 ``` ts
 import React from 'react'
-import { StoreProvider } from '../src/index'
+import { StoreProvider } from 'r-is-for-react'
 import { createStore } from 's-is-for-store'
 
 // Define the interface for the store.

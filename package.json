@@ -1,6 +1,6 @@
 {
   "name": "r-is-for-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React bindings for s-is-for-store.",
   "main": "lib/index.js",
   "author": "Grant Heath",
