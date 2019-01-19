@@ -1,12 +1,3 @@
-# R is for React
-
-A React connector for [S is for Store](https://github.com/heathgr/s-is-for-store)
-
-> Note: This project is still early in development.  It is not recommended for production code.
-
-## Usage Example
-
-``` ts
 import React from 'react'
 import { StoreProvider } from '../src/index'
 import { createStore } from 's-is-for-store'
@@ -62,4 +53,3 @@ const App = () => (
 )
 
 export default App
-```
