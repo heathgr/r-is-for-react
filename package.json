@@ -1,6 +1,6 @@
 {
-  "name": "r-is-for-react",
-  "version": "0.0.3",
+  "name": "@s-is-for-store/react",
+  "version": "0.0.4",
   "description": "React bindings for s-is-for-store.",
   "main": "lib/index.js",
   "author": "Grant Heath",
@@ -42,7 +42,7 @@
   },
   "peerDependencies": {
     "react": "^16.7.0",
-    "s-is-for-store": "^0.2.1"
+    "s-is-for-store": "^1.0.0"
   },
   "dependencies": {
     "@types/enzyme": "^3.1.15",

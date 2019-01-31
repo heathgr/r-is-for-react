@@ -8,12 +8,12 @@ interface AppState {
 }
 
 // Initialize the initial app state.
-const initiailState: AppState = {
+const initialState: AppState = {
   count: 0
 }
 
 // Create the store.
-const appStore = createStore<AppState>(initiailState)
+const appStore = createStore<AppState>(initialState)
 const { getState, setState } = appStore
 
 // Define functions for mutating the state.
