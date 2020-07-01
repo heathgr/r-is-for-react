@@ -2,7 +2,7 @@ const Enzyme = require('enzyme');
 const Adapter = require('enzyme-adapter-react-16');
 const { JSDOM } = require('jsdom');
 
-const jsdom = new JSDOM('<!doctype html><html><body></body></html>');
+const jsdom = new JSDOM('<!doctype html><html><body></body></html>', { url: 'http://localhost/' });
 const { window } = jsdom;
 
 Enzyme.configure({ adapter: new Adapter() })
@@ -13,6 +13,8 @@ function copyProps(src, target) {
     ...Object.getOwnPropertyDescriptors(target),
   });
 }
+
+jsdom.window.URL = 'http://localhost'
 
 global.window = window;
 global.document = window.document;
