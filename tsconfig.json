@@ -64,6 +64,6 @@
   "exclude": [
     "examples/",
     "lib/",
-    "src/*.test.ts"
+    "src/**/*.test.ts"
   ]
 }
